@@ -3,7 +3,7 @@ const MongoClient = mongodb.MongoClient;
 
 let _db;
 
-const url = "mongodb+srv://coryg:eaglesfan21@cluster0-dbyoo.mongodb.net/test?retryWrites=true";
+const url = "mongodb+srv://coryg:eaglesfan21@cluster0-dbyoo.mongodb.net/shop?retryWrites=true";
 
 const mongoConnect = (callback) => {
   MongoClient.connect(url)
